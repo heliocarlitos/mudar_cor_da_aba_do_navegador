@@ -9,14 +9,12 @@
 body {
     font-family: "Inter", serif;
     background-color: #282a36;
-    /* Fundo do tema Dracula */
     color: #f8f8f2;
-    /* Cor do texto geral */
 }
 
 main {
     width: 100%;
-    height: 100dvh;
+    padding: 50px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +25,7 @@ main {
 h1 {
     color: #50fa7b;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h1 span {
@@ -42,8 +41,22 @@ pre {
     overflow: auto;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.1em;
+    text-wrap: wrap;
 }
-.tag { color: #ff79c6; }
-.attribute { color: #8be9fd; }
-.comment { color: #a1aac5; font-style: italic; }
-.value { color: #f1fa8c; }
+
+.tag {
+    color: #ff79c6;
+}
+
+.attribute {
+    color: #8be9fd;
+}
+
+.comment {
+    color: #a1aac5;
+    font-style: italic;
+}
+
+.value {
+    color: #f1fa8c;
+}
